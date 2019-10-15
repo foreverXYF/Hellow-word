@@ -1,4 +1,7 @@
-1 打开github下载仓库
-2 git add 添加文件到Index
-3 git commit 修改后提交
-4 git push 提交到远程仓库
+1 配置  git config --global user.name "Your Name"
+        git config --global user.email "email@example.com"
+2 创建GitHub仓库 
+3 打开github下载仓库  git clone 'github 地址'
+4 git add 添加文件到Index
+5 git commit 修改后提交
+6 git push 提交到远程仓库
