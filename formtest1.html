@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            账号：<input type="text" name="account">
+        </p>
+        <p>
+            密码：<input type="password">
+        </p>
+        <p>
+            <!-- 单选框和多选框中 name必须一致 除了按钮标签都可以通过value提交-->
+            性别：
+            <input type="radio" name="sex" value="male">男
+            <input type="radio" name="sex" value="female">女
+            <input type="radio" name="sex" checked="checked" value="yao">保密
+        </p>
+        <p>
+            爱好：
+            <input type="checkbox" name="sport" value="swimming">游泳
+            <input type="checkbox" name="sport" value="basketball">篮球
+            <input type="checkbox" name="sport" value="rap">rap          
+        </p>
+        <p>
+            简介:
+            <textarea name="" id="" cols="30" rows="10">
+
+            </textarea>
+        </p>
+        <p>
+            生日：
+            <input type="date">
+        </p>
+        <p>
+            <input type="submit" value="注册">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset"  value="清空"> 
+        </p>
+    </form>
+</body>
+</html>
